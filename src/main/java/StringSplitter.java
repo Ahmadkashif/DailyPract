@@ -3,7 +3,6 @@ public class StringSplitter {
     public static String[] solution(String s){
 
         String[] strArr;
-
         if(s.length()>0){
 
             int strLen = ( ((s.length()% 2) == 0) ? s.length()/2 : (s.length()/2) + 1  ) ;
