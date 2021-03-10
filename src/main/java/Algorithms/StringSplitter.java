@@ -1,3 +1,5 @@
+package Algorithms;
+
 public class StringSplitter {
 
     public static String[] solution(String s){
