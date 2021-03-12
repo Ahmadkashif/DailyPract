@@ -3,7 +3,6 @@ package Algorithms;
 public class StringSplitter {
 
     public static String[] solution(String s){
-
         String[] strArr;
 
         if(s.length()>0){
