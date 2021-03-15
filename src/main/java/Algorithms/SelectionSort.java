@@ -24,7 +24,6 @@ public class SelectionSort {
             int temp = arr[largestIndex];
             arr[largestIndex] = arr[sortedPartitionIndex] ;
             arr[sortedPartitionIndex] = temp;
-
             sortedPartitionIndex--;
         }
         return arr;
