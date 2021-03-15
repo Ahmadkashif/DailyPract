@@ -15,8 +15,6 @@ public class SelectionSort {
                     largestIndex = i;
                 else
                     continue;
-
-
             }
             if (sortedPartitionIndex == 0)
                 return arr;
