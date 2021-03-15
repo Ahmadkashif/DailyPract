@@ -4,23 +4,25 @@ public class BubbleSort {
 
     public static int[] sort(int[] arr){
 
-        int unsortedIndex = arr.length - 1;
+        int unsortedIndex = arr.length;
 
         for(int i = 0; i < arr.length ;i++){
             for(int j= 0 ; j < unsortedIndex; j++) {
 
-                if((i+1) < arr.length) {
+                if((j+1) < unsortedIndex) {
 
-                    if(arr[i] > arr[ i+1 ]){
-                        int temp = arr[i+1];
-                        arr[i+1] = arr[i];
-                        arr[i] = temp;
+                    if(arr[j] > arr[ j+1 ]){
+
+                        int temp = arr[j+1];
+                        arr[j+1] = arr[j];
+                        arr[j] = temp;
                     }
                 }
                 else{
                     continue;
                 }
             }
+            unsortedIndex--;
         }
         return arr;
     }
