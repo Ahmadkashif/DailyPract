@@ -22,7 +22,6 @@ public class InsertionSort {
                     int temp = arr[i];
                     arr[i--] = newOne;
                     arr[jtemp--] = temp;
-
                 }
             }
         }
