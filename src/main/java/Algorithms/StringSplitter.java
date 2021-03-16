@@ -9,10 +9,10 @@ public class StringSplitter {
         if(s.length() > 0)
         {
             int strLen = ( ((s.length()% 2) == 0) ? s.length()/2 : (s.length()/2) + 1  ) ;
+
             System.out.println(strLen);
             strArr = new String[strLen];
             int j=0, counter = 0;
-
             for(int i= 0 ; i < s.length(); i++){
 
                 counter++;
