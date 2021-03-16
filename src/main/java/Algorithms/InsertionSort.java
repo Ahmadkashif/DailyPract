@@ -17,7 +17,6 @@ public class InsertionSort {
                 int jtemp;
                 jtemp = j + 1;
                 int newOne = arr[j+1];
-
                 while( i >= 0 && arr[ i ] < newOne ) {
                     int temp = arr[i];
                     arr[i--] = newOne;
