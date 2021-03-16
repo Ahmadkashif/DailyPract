@@ -3,6 +3,7 @@ package Algorithms;
 public class InsertionSort {
 
     public static int[] sort(int[] arr){
+
         int SPI = 0;
         for(int j = SPI ;j<arr.length-1;j++){
 
