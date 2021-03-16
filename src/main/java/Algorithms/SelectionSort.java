@@ -10,7 +10,6 @@ public class SelectionSort {
 
             int largestIndex = 0;
             for (int i = 1; i <= sortedPartitionIndex ; i++){
-
                 if( arr[largestIndex] < arr[i])
                     largestIndex = i;
                 else
