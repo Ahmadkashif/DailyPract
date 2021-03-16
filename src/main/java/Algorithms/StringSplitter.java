@@ -16,7 +16,6 @@ public class StringSplitter {
             for(int i= 0 ; i < s.length(); i++){
 
                 counter++;
-
                 if(counter == 1){
                     if((i+1)<s.length())
                         continue;
