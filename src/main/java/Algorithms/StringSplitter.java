@@ -32,6 +32,7 @@ public class StringSplitter {
 
             }
         }
+
         else{
             strArr = new String[1];
             strArr[0] = "";
