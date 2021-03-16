@@ -16,6 +16,7 @@ public class SelectionSort {
                     continue;
             }
             if (sortedPartitionIndex == 0)
+
                 return arr;
 
             int temp = arr[largestIndex];
