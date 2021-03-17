@@ -10,7 +10,6 @@ public class ARRAYList {
 
     }
 
-    private Object String;
     private ArrayList ArrLst;
     
 }
