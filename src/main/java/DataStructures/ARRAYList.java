@@ -9,7 +9,6 @@ public class ARRAYList {
         this.ArrLst = new ArrayList<>();
 
     }
-
     private ArrayList ArrLst;
     
 }
