@@ -6,9 +6,11 @@ public class ARRAYList {
 
     public ARRAYList(Object data) {
 
+        this.ArrLst = new ArrayList<>();
+
     }
 
     private Object String;
-    private ArrayList<Object> ArrLst = new ArrayList<Object>();
+    private ArrayList ArrLst;
     
 }
